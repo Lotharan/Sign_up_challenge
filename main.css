@@ -1,0 +1,31 @@
+body {
+	background-color: #258EDF;
+	padding: 30px;
+}
+img {
+	height: 37px;
+	width: auto;
+}
+.signup label {
+	display: block;
+}
+button	{
+	background-color: #0CB863;
+	border: none;
+	color: white;
+	width: 320px;
+	height: 55px;
+	padding: 15px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+.sign-up-form {
+	margin: auto;
+	width: 400px;
+}
+img	 {
+	margin: auto;
+}
+
