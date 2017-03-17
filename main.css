@@ -60,7 +60,6 @@ a {
 button:hover {
 	background-color: #49A646;
 }
-
 input, button {
 	border-radius: 5px;
 }
@@ -68,9 +67,10 @@ form {
 	background-color: #fff;
 }
 fieldset {
-	border: none;
+	border: 0;
 	padding: 0;
 }
 .container {
 	margin-top: 15px;
 }
+
