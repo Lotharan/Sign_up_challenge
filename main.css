@@ -1,13 +1,22 @@
 body {
 	background-color: #258EDF;
-	padding: 30px;
+	padding-top: 60px;
+	font-family: 'Roboto', helvetica, sans-serif;
+}
+body * {
+	box-sizing: border-box;
 }
 img {
 	height: 37px;
 	width: auto;
+	margin-bottom: 15px;
 }
 .signup label {
 	display: block;
+	margin: 15px 0;
+}
+.signup {
+	padding: 40px 40px;
 }
 button	{
 	background-color: #0CB863;
@@ -18,14 +27,50 @@ button	{
 	padding: 15px 15px;
 	text-align: center;
 	text-decoration: none;
-	display: inline-block;
+	display: block;
 	font-size: 16px;
 }
 .sign-up-form {
 	margin: auto;
 	width: 400px;
+	margin-top: 25px;
 }
-img	 {
-	margin: auto;
+input {
+	padding: 15px;
+	height: 55px;
+	width: 320px;
+	border: 1px solid #dddddd;
+	background-color: #FCFCFC;
+}
+p {
+	color: #fff;
+	text-align: center;
+	margin-top: 15px
+}
+p a {
+	color: #fff;
+}
+a {
+	display: block;
+	text-align: center;
+}
+.fieldlogo, h1 {
+	text-align: center;
+}
+button:hover {
+	background-color: #49A646;
 }
 
+input, button {
+	border-radius: 5px;
+}
+form {
+	background-color: #fff;
+}
+fieldset {
+	border: none;
+	padding: 0;
+}
+.container {
+	margin-top: 15px;
+}
